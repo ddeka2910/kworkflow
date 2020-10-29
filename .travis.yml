@@ -1,5 +1,9 @@
 language: bash
 os: linux
+arch:
+ - amd64
+ - ppc64le
+ 
 dist: bionic
 
 # Prepare for dependencies installation
